@@ -25,9 +25,6 @@ table {
   text-align: left;
   width: 100%;
 }
-p {
-  margin: 20px 100px 20px;
-}
 a:link,
 a:visited,
 a:hover,
@@ -44,6 +41,9 @@ a:target {
 }
 a:hover {
   color: #ebebeb;
+}
+.skills {
+  margin-right: 75px;
 }
 .input-normal {
   width: 228px;
@@ -84,10 +84,8 @@ a:hover {
   margin-bottom: auto;
 }
 .fill-blue {
-  -webkit-border-radius: 3px 5px 1px 4px;
-  /* recuerda la primera frase */
-  -moz-border-radius: 4px;
-  /* si quieres todas las esquinas iguales */
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
   border-radius: 20px;
   text-align: center;
   width: 500px;
@@ -103,7 +101,7 @@ a:hover {
   position: relative;
 }
 .margin-less {
-  margin-top: -20px;
+  margin-top: -10px;
 }
 .margin-less-left {
   margin-top: -20px;
