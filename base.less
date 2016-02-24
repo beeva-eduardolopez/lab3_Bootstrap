@@ -1,0 +1,153 @@
+@import 'variables.less';
+@import 'mixins.less';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* BASIC */
+body {
+  font: normal 18px/22px sans-serif;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+h1 {
+  font-size: 36px;
+  line-height: 46px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: -20px;
+}
+ table{
+	text-align: left;
+	width: 100%
+ }
+p {
+  margin: 20px 100px 20px;
+}
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+footer {
+	color: @grey;
+	text-align: center;
+	padding-top: 20px;
+}
+
+ a:target {
+  color: @aHoverTarget;
+}
+a:hover{
+	color: @aHoverTarget;
+}
+
+
+.input-normal{
+	width: 228px; 
+	height: 25px;
+	background-color:@white;
+	color: @grey;
+    .border-radius(5px);
+}
+
+.input-button{
+	width: 228px; 
+	height: 25px;
+    .border-radius(5px);
+	background-color:@white;
+	color: @grey;
+	margin-top:15px;
+}
+.input-big{
+	width: 228px; 
+	height: 160px;
+    .border-radius(5px);
+	color: @grey;
+}
+.center-div{
+	margin: 20px 200px 20px 200px;
+}
+
+.white-uppercase{
+	text-transform: uppercase;
+	color: @white;
+	text-align: left;
+	font-size: 12px;
+	margin-left: 135px;
+	margin-bottom: auto;
+}
+
+.fill-blue{
+	-webkit-border-radius: 3px 5px 1px 4px; /* recuerda la primera frase */
+	-moz-border-radius: 4px; /* si quieres todas las esquinas iguales */
+	border-radius: 20px;
+	text-align: center;
+	width:500px;
+	height:410px;
+	background-color: @primaryBlue;
+	margin: 50px auto;
+    padding-top: 10px;
+}
+
+
+.nav-bar {
+  box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.6);
+}
+
+.content {
+  position: relative;
+ }
+ 
+ .margin-less{
+     margin-top: -20px;
+ }
+ 
+  .margin-less-left{
+     margin-top: -20px;
+     margin-left: 120px;
+ }
+
+ 
+ .date-em {
+  color: #81BEF7;
+  font-style: oblique;
+  margin-top: -20px;
+  margin-left: 120px;
+}
+
+.description {
+  padding-top: 100px;
+  text-align: center;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.description2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 25px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  margin: 0 auto;
+   display: inline-block;
+}
+
+.footer-color {
+  color: @primaryBlue;
+}
+
+
+.summary {
+  margin-bottom: 60px;
+}
