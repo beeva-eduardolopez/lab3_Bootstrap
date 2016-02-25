@@ -25,6 +25,7 @@ table {
   text-align: left;
   width: 100%;
 }
+
 a:link,
 a:visited,
 a:hover,
@@ -46,8 +47,8 @@ a:hover {
   margin-right: 75px;
 }
 .input-normal {
-  width: 228px;
-  height: 25px;
+  width: 70%;
+  height: 70%;
   background-color: #ffffff;
   color: #BDBDBD;
   -moz-border-radius: 5px;
@@ -55,8 +56,8 @@ a:hover {
   border-radius: 5px;
 }
 .input-button {
-  width: 228px;
-  height: 25px;
+  width: 70%;
+  height: 70%;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -65,12 +66,13 @@ a:hover {
   margin-top: 15px;
 }
 .input-big {
-  width: 228px;
-  height: 160px;
+  width: 70%;
+  height: 70%;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   color: #BDBDBD;
+
 }
 .center-div {
   margin: 20px 200px 20px 200px;
@@ -80,7 +82,7 @@ a:hover {
   color: #ffffff;
   text-align: left;
   font-size: 12px;
-  margin-left: 135px;
+  margin-left: 108px;
   margin-bottom: auto;
 }
 .fill-blue {
@@ -88,11 +90,11 @@ a:hover {
   -webkit-border-radius: 20px;
   border-radius: 20px;
   text-align: center;
-  width: 500px;
-  height: 410px;
+  margin: 0 auto;
+  width: 65%;
   background-color: #81BEF7;
-  margin: 50px auto;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .nav-bar {
   box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.6);
@@ -100,18 +102,19 @@ a:hover {
 .content {
   position: relative;
 }
+
 .margin-less {
   margin-top: -10px;
 }
 .margin-less-left {
-  margin-top: -20px;
-  margin-left: 120px;
+  margin-top: -10px;
+  margin-left: 20px;
 }
 .date-em {
   color: #81BEF7;
   font-style: oblique;
-  margin-top: -20px;
-  margin-left: 120px;
+  margin-top: -10px;
+  margin-left: 20px;
 }
 .description {
   padding-top: 100px;
