@@ -21,11 +21,14 @@ h2 {
   line-height: 33px;
   margin-bottom: -20px;
 }
+hr {
+  color: #81BEF7;
+  size: 5 ;
+}
 table {
   text-align: left;
   width: 100%;
 }
-
 a:link,
 a:visited,
 a:hover,
@@ -72,7 +75,6 @@ a:hover {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   color: #BDBDBD;
-
 }
 .center-div {
   margin: 20px 200px 20px 200px;
@@ -94,7 +96,7 @@ a:hover {
   width: 65%;
   background-color: #81BEF7;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .nav-bar {
   box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.6);
@@ -102,13 +104,15 @@ a:hover {
 .content {
   position: relative;
 }
-
 .margin-less {
   margin-top: -10px;
 }
 .margin-less-left {
   margin-top: -10px;
   margin-left: 20px;
+}
+.edu {
+  width: auto;
 }
 .date-em {
   color: #81BEF7;

@@ -9,6 +9,10 @@
   background-color: #81BEF7;
   text-align: center;
 }
+.color {
+  background-color: #81BEF7;
+  color: #ffffff;
+}
 .content {
   margin-top: 20px;
 }
@@ -24,11 +28,11 @@
 }
 .menu a,
 .menu a:visited {
-  color: #ffffff;
+  color: #5882FA;
 }
 .menu a:hover,
 .menu a:target {
-  color: #ebebeb;
+  color: #5882FA;
 }
 .menu-items {
   display: inline-block;
@@ -48,5 +52,5 @@
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center left;
-  color: #dde1e2;
+  color: #5882FA;
 }
