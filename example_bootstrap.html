@@ -20,7 +20,35 @@
 
 <body>
 
-    <nav class="nav-bar">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Menu</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Link</a></li> 
+		<li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+   <!-- <nav class="nav-bar">
         <div id="menu" class="menu">
             <ul class="menu-items">
                 <li><a href="#about">About</a></li>
@@ -31,7 +59,7 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
 
     <div class="center-div">
 
@@ -150,9 +178,15 @@
                 <h1 id="education">Education</h1>
             </div>
             <hr color="#81BEF7" size=5>
-            <p>DepotU</p>
-            <p class="margin-less">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
+			<div class="row">
+				<div class="col-xs-24 col-sm-12" style="background-color:lavender;">
+					<p>DepotU</p>
+					<p class="margin-less">Lorem ipsum dolor sit amet</p>
+					<p class="margin-less">Lorem ipsum dolor sit amet</p>
+					<p class="margin-less">Lorem ipsum dolor sit amet</p>
+				</div>
+			</div>
+
         </section>
         <section class="content">
             <hr color="#81BEF7" size=5>
@@ -160,20 +194,21 @@
                 <h1 id="contact">Contact Me</h1>
             </div>
             <hr color="#81BEF7" size=5>
-            <div class="fill-blue">
-                <form action="demo_form.asp">
-                    <p class="white-uppercase">name</p>
-                    <input class="input-normal" type="text" name="fname">
-                    <br>
-                    <p class="white-uppercase">email</p>
-                    <input class="input-normal" type="text" name="femail">
-                    <br>
-                    <p class="white-uppercase">message</p>
-                    <textarea class="input-big" type="text" name="fmessage"></textarea>
-                    <br>
-                    <input class="input-button" type="submit" value="Send">
-                </form>
-            </div>
+			<div class="container">
+			
+				<form class="fill-blue" action="demo_form.asp">
+					<p class="white-uppercase">name</p>
+					<input class="input-normal" type="text" name="fname">
+					<p class="white-uppercase">email</p>
+					<input class="input-normal" type="text" name="femail">
+					<br>
+					<p class="white-uppercase">message</p>
+					<textarea rows="8" class="input-big" type="text" name="fmessage"></textarea>
+					<br>
+					<input class="input-button" type="submit" value="Send">
+				</form>
+
+			</div>
         </section>
         <hr color="#81BEF7" size=5>
 
